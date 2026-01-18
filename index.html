@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chetan Ambalkar | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      border-bottom: 3px solid #0f172a;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+    }
+    .skills, .certs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .projects .card {
+      margin-bottom: 20px;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #0f172a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Chetan Ambalkar</h1>
+    <p>Python & AWS Cloud Fresher | Backend & Cloud Engineering</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Python & AWS cloud fresher with hands-on experience in building serverless APIs using
+      AWS Lambda, API Gateway, and DynamoDB. Interested in backend development and cloud engineering.
+    </p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="card"><strong>Cloud Platforms:</strong> AWS (EC2, S3, IAM, VPC, RDS, Lambda)</div>
+      <div class="card"><strong>Operating System:</strong> Linux (Ubuntu)</div>
+      <div class="card"><strong>Scripting:</strong> Python, Shell (Basics)</div>
+      <div class="card"><strong>Containerization:</strong> Docker (Basics)</div>
+      <div class="card"><strong>Version Control:</strong> Git & GitHub</div>
+      <div class="card"><strong>Networking:</strong> TCP/IP, DNS, Subnets</div>
+      <div class="card"><strong>DevOps:</strong> GitHub Actions (Basics)</div>
+      <div class="card"><strong>Monitoring:</strong> AWS CloudWatch</div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Smart Traffic Signal with Violation Alert System</h3>
+      <ul>
+        <li>Designed a smart traffic signal using Arduino Mega and IR sensors</li>
+        <li>Detected red-light violations and generated real-time alerts</li>
+        <li>Focused on improving road safety through automated violation detection</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Serverless REST API – AWS Lambda & API Gateway</h3>
+      <ul>
+        <li>Built and deployed a serverless REST API using AWS Lambda (Python 3.10)</li>
+        <li>Configured IAM roles and permissions securely</li>
+        <li>Tested API endpoints for correct request handling and responses</li>
+      </ul>
+      <p><strong>GitHub:</strong> <a href="https://github.com/chetanambalkar329-dot/hello-world-aws-lambda.git" target="_blank">View Repository</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Serverless Resume Analyzer – AWS</h3>
+      <ul>
+        <li>Developed a resume analysis app using Lambda, S3, DynamoDB, and Textract</li>
+        <li>Uploaded resumes via API Gateway and extracted text automatically</li>
+        <li>Stored extracted data securely in DynamoDB</li>
+        <li>Monitored execution using AWS CloudWatch Logs</li>
+      </ul>
+      <p><strong>GitHub:</strong> <a href="https://github.com/chetanambalkar329-dot/serverless-resume-analyzer.git" target="_blank">View Repository</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>B.Tech – Electronics & Telecommunication Engineering</strong> (2022 – 2026)</p>
+      <p>JD College of Engineering and Management, Nagpur</p>
+    </div>
+    <div class="card">
+      <p><strong>HSC (12th)</strong> – Yashwantrao Chavan Arts & Science Junior College (2022)</p>
+      <p>Percentage: 79.83%</p>
+    </div>
+    <div class="card">
+      <p><strong>SSC (10th)</strong> – Z. P. High School (2020)</p>
+      <p>Percentage: 84.40%</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="certs">
+      <div class="card">Introduction to Internet of Things (NPTEL)</div>
+      <div class="card">AWS Cloud Practitioner Essentials – Skill Builder</div>
+      <div class="card">Cloud Computing with AWS – L&T Edutech</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Chetan Ambalkar | Hosted on AWS S3</p>
+  </footer>
+
+</body>
+</html>
