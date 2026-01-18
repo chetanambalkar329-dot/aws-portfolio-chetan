@@ -7,15 +7,19 @@ The site is built using simple HTML and CSS and is hosted for free using GitHub 
 
 ## Live Website
 You can view the live website here:  
-https://chetanambalkar329-dot.github.io/aws-portfolio/
+https://chetanambalkar329-dot.github.io/aws-portfolio-chetan/
 
 ## Files in this repository
 - index.html – Main homepage of the website  
 - error.html – Custom 404 error page  
 
 ## About Me
-I am learning web development and cloud technologies.
-This portfolio is part of my learning and practice journey.
+I am a fresher and currently learning cloud technologies.
+My goal is to become a Cloud Engineer.
+
+I created this portfolio to practice my skills and to showcase my learning journey.
+This project is made for hands-on experience and future job opportunities.
+
 
 ## Hosting
 This website is hosted using **GitHub Pages**.
