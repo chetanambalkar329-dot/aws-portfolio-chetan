@@ -23,3 +23,12 @@ This project is made for hands-on experience and future job opportunities.
 
 ## Hosting
 This website is hosted using **GitHub Pages**.
+
+## AWS Experience (Practice Project)
+
+This website was first hosted using **AWS S3 static website hosting**.
+I created an S3 bucket, uploaded the HTML files, and configured public access.
+
+Later, I also deployed the same website using **GitHub Pages** for practice.
+This project helped me understand basic cloud concepts like static hosting and deployment.
+
